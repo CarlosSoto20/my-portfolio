@@ -222,6 +222,10 @@ img{
 
 /* ACTIVE LINK */
 
+.active-link{
+    color: var(--first-color);
+}
+
 /* CHANGE BACKGROUND HEADER */
 
 /*=== HOME ===*/
