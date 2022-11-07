@@ -273,7 +273,7 @@ img{
     gap: 1rem;
 }
 .home__content{
-    grid-template-columns: .5fr 3fr;
+    grid-template-columns: min-content 3fr;
     padding-top: 3.5rem;
     align-items: center;
 }
@@ -289,10 +289,15 @@ img{
 .home__social-icon:hover{
     color: var(--first-color-alt);
 }
+.home__img{
+    display: flex;
+    justify-content: center;
+}
 .home__img-img{
-    width: 170px;
+    width: 210px;
 }
 .home__data{
+    padding-top: 3.5rem;
     grid-column: 1/3;
 }
 .home__title{
